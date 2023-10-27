@@ -1,0 +1,83 @@
+body{
+    font-family:'Montserrat', sans-serif;
+    padding: 0;
+    
+}
+:root{
+    color: #fff;
+    color: #5c8583a9;
+    color:darkslategray;
+    color:#566e6d;
+}
+
+header{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: #fff;
+    min-height: 50px;
+}
+.box-img-header{
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #8bb1afc4;
+}
+
+section{
+    padding: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    color: #566e6d;
+
+}
+strong{
+    color:rgb(55, 87, 87);
+}
+
+
+#segunda-section{
+    display:flex ;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 650px;
+    background-color: #566e6d;
+}
+
+#terceira-section{
+    background-color: rgba(145, 194, 190, 0.877);
+    display: flex;
+    gap: 2rem;
+}
+
+.terceira-section div{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.terceira-section div img{
+    width: 500px;
+    border-radius: 10px;
+    align-items:  center;
+    margin-left: 48rem"
+    
+}
+
+.terceira-section div p{
+    max-width: 700px;
+    text-align: justify;
+}
+

@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff79;
+    margin: 100;
+    padding: 10, 0;
+}
+
+/*Benefits section*/
+#key-benefits h2{
+    background-color: #566e6d;
+    text-align: center;
+    padding: 1em;
+    font-weight: 500;
+}
+
+.benefits{
+    display:flex;
+    justify-content: space-around;
+    padding: 0em;
+    width: 90%;
+    margin: center;
+}
+
+
+.benefit .benefit-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+#benefit-1{
+    background-image: url("/img/reuniao1.jpeg");
+}
+
+#benefit-2{
+    background-image: url("/img/reuniao2.jpeg");
+}
+
+#benefit-3{
+    background-image: url("/img/reuniao3.jpeg");
+}
+
+#benefit-4{
+    background-image: url("/img/reuniao4.jpeg");
+}
+
+#benefit-5{
+    background-image: url("/img/calculo.jpeg");
+}
+
+#benefit-6{
+    background-image: url("/img/caneta.jpeg");
+}
+/* Adicione uma barra de navegação */
+.navbar {
+    background-color: #566e6d;
+    color: #fff;
+    padding: 0px 0;
+    text-align: center;
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+/* Adicione um menu de rodapé */
+footer {
+    background-color: #566e6d;
+    color: #fff;
+    padding: 1em ;
+    margin: auto;
+    text-align: center;
+}
+
